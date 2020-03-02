@@ -1,0 +1,654 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+    /* font-family: 'Barlow', sans-serif; */
+}
+
+
+
+
+/* FONT SIZES STARTS */
+/* FONT SIZES STARTS */
+
+
+h1 {
+    font-size: 60px;
+    color: #464654;
+}
+
+h2 {
+    font-size: 36px;
+    color: #464654;
+}
+
+h3 {
+    font-size: 20px;
+    color: #464654;
+    /* font-weight: 400; */
+    /* text-emphasis: none;
+    text-decoration: none; */
+}
+
+span {
+    font-size: 18px;
+    color: #464654;
+}
+
+p {
+    font-size: 18px;
+    color: #464654;
+}
+
+/* FONT SIZES ENDS */
+/* FONT SIZES ENDS */
+
+/* HEADER AND NAV STARTS */
+/* HEADER AND NAV STARTS */
+
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 20%;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 15vh;
+    z-index: 2;
+    /* font-size: 12px; */
+}
+
+li, a {
+    font-weight: 400;
+    font-size: 16px;
+    color: #464654;
+    text-decoration: none;
+}
+
+p {
+    font-weight: 400;
+    color: #464654;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    height: 80px;
+    width: 80px;
+}
+
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+    color: grey;
+}
+
+/* HEADER AND NAV ENDS */
+/* HEADER AND NAV ENDS */
+
+
+/* MAIN PAGE STARTS */
+/* MAIN PAGE STARTS */
+
+.main-page {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.main-page-image {
+    max-width: 60%;
+    height: auto;
+    margin: 0px;
+    /* margin-top: 15vh; */
+}
+
+.main-page p {
+    /* width: 80%; */
+    text-align: center;
+    color: #464654;
+    margin: auto;
+}
+
+.main-page h1 {
+    width: 50%;
+    text-align: center;
+    font-size: 5em;
+    color: #464654;
+    margin: 5vh;
+}
+
+.main-page span {
+    width: 50%;
+    text-align: center;
+    color: #464654;
+    margin: 5vh;
+    height: 80%;
+}
+
+.section-divider {
+    height: 10vh;
+}
+
+/* MAIN PAGE ENDS */
+/* MAIN PAGE ENDS */
+
+
+/* LANDING PAGE IMAGE STARTS */
+/* LANDING PAGE IMAGE STARTS */
+
+.landing-section-image-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.landing-image {
+    /* height: 100vh; */
+    margin: auto;
+    width: 60%;
+}
+
+/* LANDING PAGE IMAGE ENDS */
+/* LANDING PAGE IMAGE ENDS */
+
+
+/* DIVIDER LINE STARTS */
+/* DIVIDER LINE STARTS */
+
+  hr {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid black;
+    margin: 5vh auto;
+    }
+
+/* DIVIDER LINE ENDS */
+/* DIVIDER LINE ENDS */
+
+
+/* LANDING SECTION STARTS */
+/* LANDING SECTION STARTS */
+
+.callout-text {
+    margin: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.home-section {
+    margin-top: 15vh;
+    /* margin-bottom: 10vh; */
+}
+
+.home-section-callout-text {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mini-hours-content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: center;
+    width: 80%;
+    margin: 0 0 5vh 0;
+}
+
+.mini-curio-hours-div {
+    text-align: center;
+    width: 30%;
+    margin: 5% 2%;
+    /* padding: 2vh; */
+}
+
+.mini-curio-hours-div span {
+    text-align: center;
+    margin: 0;
+}
+
+.home-section-story {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin: 5vh 0;
+    width: 100%;
+    /* margin-bottom: 10vh; */
+}
+
+.home-section-story p {
+    text-align: justify;
+    width: 50%;
+    /* padding: 5vh; */
+}
+
+/* LANDING SECTION ENDS */
+/* LANDING SECTION ENDS */
+
+
+/* COFFEE SECTION STARTS */
+/* COFFEE SECTION STARTS */
+
+/* .coffee-section {
+    margin-bottom: 10vh;
+} */
+
+.coffee-callout-text {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.coffee-section-info-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 5vh auto;
+    
+}
+
+.coffee-section-info-text p {
+    text-align: justify;
+    width: 50%;
+}
+
+/* COFFEE IMAGE GALLERY STARTS */
+
+
+.coffee-photo-gallery-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+.column {
+    display: flex;
+    flex: 50%;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    max-width: 50%;
+    padding: 0 4px;
+    justify-content: center;
+    margin: auto;
+    }
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    /* max-width: 40%;
+    max-height: 100%; */
+    /* min-width: 50vh; */
+  }
+
+/* COFFEE IMAGE GALLERY ENDS */
+
+.counter-culture-info-div {
+    margin: 5vh 0;
+}
+
+.counter-culture-info-div p {
+    text-align: justify;
+    width: 50%;
+}
+
+.other-coffee-program-info-div {
+    margin: 5vh 0;
+}
+
+.other-coffee-program-info-div p {
+    text-align: justify;
+    width: 50%;
+}
+
+/* COFFEE SECTION ENDS */
+/* COFFEE SECTION ENDS */
+
+
+/* WAFFLES SECTION STARTS */
+/* WAFFLES SECTION STARTS */
+
+.waffles-section {
+    margin-bottom: 10vh;
+}
+
+.waffles-section-info-text p {
+    text-align: justify;
+    width: 50%;
+    padding: 5vh;
+}
+
+.waffles-photo-gallery-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+/* WAFFLES SECTION ENDS */
+/* WAFFLES SECTION ENDS */
+
+
+/* WINE SECTION STARTS */
+/* WINE SECTION STARTS */
+
+.wine-section {
+    margin-bottom: 10vh;
+}
+
+.wine-section-info-text p {
+    text-align: justify;
+    width: 50%;
+    padding: 5vh;
+}
+
+.wine-photo-gallery-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    margin: auto;
+}
+
+.other-wine-program-info-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.other-wine-program-info-div p {
+    text-align: justify;
+    width: 50%;
+    padding: 5vh;
+}
+
+/* WINE SECTION ENDS */
+/* WINE SECTION ENDS */
+
+
+/* HOURS SECTION STARTS */
+/* HOURS SECTION STARTS */
+
+.hours-section {
+    margin-bottom: 10vh;
+}
+
+.hours-content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 5vh;
+}
+
+.curio-hours-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 2vh;
+    text-align: center;
+    width: 30%;
+}
+
+.address-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 2vh;
+    text-align: center;
+    width: 30%;
+}
+
+.social-media-icons-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media-icons-div p {
+    text-align: justify;
+    width: 50%;
+    padding: 5vh;
+}
+
+.social-media-icons-div li {
+    display: inline-block;
+    text-decoration: none;
+    margin: 20px;
+}
+
+/* HOURS SECTION ENDS */
+/* HOURS SECTION ENDS */
+
+
+/* FOOTER SECTION BEGINS  */
+/* FOOTER SECTION BEGINS  */
+
+footer {
+    height: 15vh;
+    bottom: 0;
+}
+
+/* FOOTER SECTION ENDS  */
+/* FOOTER SECTION ENDS  */
+
+
+
+/* HAMBURGER MENU STARTS */
+/* HAMBURGER MENU STARTS */
+
+.burger-menu  {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 0;
+    position: fixed;
+    border-left: 1px solid grey;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 2;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .burger-menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .burger-menu a:hover {
+    color: #f1f1f1;
+  }
+  
+  .burger-menu .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+
+  #burger-button {
+      display: none;
+  }
+
+/* HAMBURGER MENU ENDS */
+/* HAMBURGER MENU ENDS */
+
+
+
+/* INTERMEDIATE SCREEN SIZE STARTS */
+/* INTERMEDIATE SCREEN SIZE STARTS */
+
+  @media screen and (max-width: 1130px) {
+    .nav-links li {
+        padding: 0px 20px;
+    }
+  }
+
+/* INTERMEDIATE SCREEN SIZE ENDS */
+/* INTERMEDIATE SCREEN SIZE ENDS */
+
+
+
+/* MOBILE SCREEN SIZE STARTS // MOBILE SCREEN SIZE STARTS */
+/* MOBILE SCREEN SIZE STARTS // MOBILE SCREEN SIZE STARTS */
+/* MOBILE SCREEN SIZE STARTS // MOBILE SCREEN SIZE STARTS */
+/* MOBILE SCREEN SIZE STARTS // MOBILE SCREEN SIZE STARTS */
+
+  @media screen and (max-width: 768px){
+
+/* MOBILE HEADER SECTION STARTS */
+/* MOBILE HEADER SECTION STARTS */
+
+    header {
+        justify-content: center;
+        /* align-content: center; */
+        align-items: right;
+        padding: 20px 10%;
+        height: 20vh;
+        width: 100%;
+    }
+
+    #burger-button {
+        display: inline-block;
+        margin-left: auto;
+      }
+
+
+/* MOBILE HEADER SECTION ENDS */
+/* MOBILE HEADER SECTION ENDS */
+
+/* MOBILE MAIN SECTION STARTS */
+/* MOBILE MAIN SECTION STARTS */
+
+
+    .main-page {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .main-page h1 {
+        font-size: 48px;
+        margin: 2vh;
+    }
+
+
+    p {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        /* color: #363636; */
+        text-decoration: none;
+        width: 100%;
+        margin: 0;
+    }
+
+    span {
+        font-size: 12px;
+        }
+    
+    .nav-links {
+        display: none;
+      }
+
+    .main-page-image {
+        max-width: 90%;
+        /* margin-bottom: 5px; */
+        margin-top: 5vh;
+        padding: 0px;
+      }
+
+/* MOBILE MAIN SECTION ENDS */
+/* MOBILE MAIN SECTION ENDS */
+
+
+/* MOBILE COFFEE SECTION STARTS */
+/* MOBILE COFFEE SECTION STARTS */
+
+      .image-gallery-div {
+          display: none;
+          max-width: 90%;
+          overflow: hidden;
+      }
+
+/* MOBILE COFFEE SECTION ENDS */
+/* MOBILE COFFEE SECTION ENDS */
+
+
+/* MOBILE WAFFLES SECTION STARTS */
+/* MOBILE WAFFLES SECTION STARTS */
+
+/* MOBILE WAFFLES SECTION ENDS */
+/* MOBILE WAFFLES SECTION ENDS */
+
+
+    .hours-content-wrapper {
+        display: flex;
+        flex-direction: column;
+      }
+
+    .curio-hours-div {
+        margin: 5px;
+        text-align: center;
+    }
+
+
+  }
+
+/* MOBILE SCREEN SIZE ENDS */
+/* MOBILE SCREEN SIZE ENDS */
+
