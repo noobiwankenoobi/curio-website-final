@@ -115,6 +115,11 @@ hr {
     align-items: center;
     width: 60vw;
     margin: auto;
+    margin-bottom: 10vh;
+}
+
+.landing-image-wrapper {
+    margin-bottom: 0vh;
 }
 
 .section-image {
@@ -183,6 +188,35 @@ hr {
 
 }
 
+/* Coffee Logo Links Start */
+
+.coffee-program-links-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.coffee-program-logo-div {
+    display: flex;
+    justify-content: center;
+    width: 25vh;
+    height: 25vh;
+    margin: 2vw;
+    border: 1px solid #464654;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.coffee-program-logo-div img {
+    max-width: 10vw;
+    height: auto;
+    object-fit: contain;
+}
+
+
+
 
 
 
@@ -238,6 +272,8 @@ hr {
     align-items: center;
     max-width: 60%;
     margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .row {
