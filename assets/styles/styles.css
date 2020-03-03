@@ -7,23 +7,26 @@
 
 body {
     font-family: 'Work Sans', sans-serif;
-    /* font-family: 'Barlow', sans-serif; */
 }
 
 /* Font Sizing Begins */
 h1 {
-    font-size: 60px;
+    font-size: 70px;
     color: #464654;
+    background-color: transparent;
+    font-weight: normal;
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 30px;
     color: #464654;
+    font-weight: normal;
 }
 
 h3 {
     font-size: 20px;
     color: #464654;
+    /* font-weight: normal; */
 }
 
 span {
@@ -34,6 +37,7 @@ span {
 p {
     font-size: 18px;
     color: #464654;
+    text-align: justify;
 }
 /* Font Sizing Ends */
 
@@ -103,16 +107,33 @@ hr {
 
 
 /* Landing Image Begins */
-.landing-section-image-wrapper {
+.section-image-wrapper {
     display: flex;
+    position: relative;
+    flex-direction: row;
     justify-content: center;
-    width: 100%;
+    align-items: center;
+    width: 60vw;
+    margin: auto;
 }
 
-.landing-image {
+.section-image {
     /* height: 100vh; */
     margin: auto;
-    width: 60%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.section-text-box {
+    position: absolute;
+    background-color: transparent;
+}
+
+.section-text-box h1 {
+    color: #f8f8ff;
+    text-shadow:0.5px 0.5px 10px #464654;
+    text-decoration: none;
+    font-weight: normal;
 }
 /* Landing Image Ends */
 
@@ -141,11 +162,25 @@ hr {
     flex-direction: column;
     align-items: center;
     margin: 5vh 0;
-    max-width: 60%;
+    max-width: 60vw;
 }
 
 .main-section h1 {
     margin: 5vh;
+}
+
+.callout-text {
+    text-align: justify;
+    margin-right: auto;
+    margin-bottom: 16px;
+}
+
+.intro-text {
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    width: 60vw;
+    text-align: center;
+
 }
 
 
@@ -333,15 +368,15 @@ footer {
 
     /* Mobile Header Begins */
     header {
-        justify-content: center;
-        align-items: right;
+        /* display: flex;
+        justify-content: flex-end; */
         padding: 20px 10%;
         height: 20vh;
         width: 100%;
     }
 
     #burger-button {
-        display: inline-block;
+        display: inline;
         margin-left: auto;
     }
 
@@ -349,6 +384,15 @@ footer {
         display: none;
       }
     /* Mobile Header Ends */
+
+
+    .main-section {
+        width: 90vw;
+    }
+
+    .section-image-wrapper {
+        width: 90vw;
+    }
 
 
 }

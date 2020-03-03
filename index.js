@@ -3,7 +3,7 @@
 // user require with a reference to bundle the file and use it in this file
 // var example = require('./example');
 
-import 'bootstrap'
+// import 'bootstrap'
 
 // allows usage of new JS features
 require('babel-polyfill')
@@ -13,4 +13,4 @@ require('babel-polyfill')
 require('./assets/scripts/app.js')
 
 // styles
-require('./assets/styles/index.scss')
+// require('./assets/styles/index.scss')
