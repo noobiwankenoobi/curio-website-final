@@ -22,11 +22,14 @@ h2 {
     font-size: 30px;
     color: #464654;
     font-weight: normal;
+    background-color: transparent;
 }
 
 h3 {
     font-size: 20px;
     color: #464654;
+    font-weight: normal;
+    background-color: transparent;
     /* font-weight: normal; */
 }
 
@@ -156,24 +159,22 @@ hr {
     align-items: center;
 }
 
-.main-page-image {
-    max-width: 60%;
-    height: auto;
-    margin: 0px;
-    /* margin-top: 15vh; */
-}
-
 .home-section {
     margin-top: 15vh;
 }
 
 .info-text {
+    width: 60vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5vh 0;
-    max-width: 60vw;
-    text-align: left;
+    justify-content: center;
+    margin-top: 5vh;
+    margin: auto;
+    border: 1px solid #464654;
+    padding: 16px;
+    margin-bottom: 32px;
+    margin-top: 32px;
 }
 
 .main-section h1 {
@@ -194,8 +195,96 @@ hr {
 
 }
 
-/* Coffee Logo Links Start */
+/* Info Div!! */
+/* Info Div!! */
+/* Info Div!! */
+.info-div {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin: auto;
+    border: 1px solid #464654;
+    padding: 16px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
 
+.info-div h3 {
+    margin: 32px;
+}
+
+
+.info-title {
+    margin-top: 5vh;
+}
+
+.info-div p {
+    margin: 32px;
+}
+
+/* Announcement Div Stars */
+.construction {
+    width: 60vw;
+    height: 10vh;
+    background-color: #FFE787;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.announcement-div {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    margin: auto;
+    border: 1px solid #464654;
+    padding: 16px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+}
+
+.announcement-div h3 {
+    margin: 32px;
+}
+
+
+.announcement-title {
+    margin-top: 5vh;
+}
+
+.announcement-div p {
+    margin: 32px;
+}
+
+.gift-card-link-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 15vw;
+    margin: 2vw;
+    border: 1px solid #464654;
+    padding: 10px;
+    object-fit: cover;
+    background-color: #464654;
+    text-align: center;
+}
+
+.gift-card-link-div h2 {
+    color: white;
+}
+
+/* Announcement Div Ends */
+
+
+/* Coffee Logo Links Start */
 .coffee-program-links-div {
     display: flex;
     flex-direction: row;
@@ -278,7 +367,7 @@ hr {
 .image-gallery-div {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
     max-width: 60vw;
     margin: auto;
@@ -288,7 +377,7 @@ hr {
 
 .row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
     padding: 0 4px;
@@ -303,8 +392,8 @@ hr {
     /* align-content: center; */
     max-width: 50%;
     padding: 0 4px;
-    justify-content: left;
-    margin: auto;
+    justify-content: flex-start;
+    /* margin: auto; */
     }
 
 .column img {
@@ -464,9 +553,9 @@ footer {
         width: 80vw;
     }
 
-    .info-text {
+    /* .info-text {
         max-width: 80vw;
-    }
+    } */
 
     .coffee-program-logo-div {
         width: 25vw;
@@ -503,9 +592,114 @@ footer {
         text-align: left;
     }
 
+    /* New Stuff */
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .announcement-div {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+        margin: auto;
+        border: 1px solid #464654;
+        padding: 16px;
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+    
+    .announcement-div h3 {
+        margin: 32px;
+    
+    }
+    
+    .announcement-div p {
+        margin: 32px;
+        font-size: 14px;
+        width: 80vw;
+    }
+    
+    .gift-card-link-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40vw;
+        height: 40vw;
+        margin: 2vw;
+        border: 1px solid #464654;
+        padding: 10px;
+        object-fit: cover;
+        background-color: #464654;
+    }
+    
+    .gift-card-link-div h2 {
+        color: white;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .hours-content-wrapper iframe {
+        width: 80vw;
+        height: 30vh;
+    }
+
+    .social-media-icons-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+    
+    .social-media-icons-div p {
+        text-align: justify;
+        width: 90%;
+        padding: 5vh;
+    }
+    
+    .social-media-icons-div li {
+        display: inline-block;
+        text-decoration: none;
+        margin: 20px;
+        text-align: center;
+    }
 
 
-
+    /* Info Div! */
+    .info-div {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+        margin: auto;
+        border: 1px solid #464654;
+        padding: 16px;
+        margin-bottom: 32px;
+        margin-top: 32px;
+    }
+    
+    .info-div h3 {
+        margin: 32px;
+    
+    }
+    
+    .info-div p {
+        margin: 32px;
+        font-size: 14px;
+        width: 80vw;
+    }
 
 }
 /* Mobile Section Ends */
