@@ -33,6 +33,7 @@ h3 {
     /* font-weight: normal; */
 }
 
+
 span {
     font-size: 18px;
     color: #464654;
@@ -163,6 +164,10 @@ hr {
     margin-top: 15vh;
 }
 
+.home-page-anchor-class {
+    top: 0;
+}
+/* 
 .info-text {
     width: 60vw;
     display: flex;
@@ -175,17 +180,17 @@ hr {
     padding: 16px;
     margin-bottom: 32px;
     margin-top: 32px;
-}
+} */
 
 .main-section h1 {
     margin: 5vh;
 }
 
-.callout-text {
+/* .callout-text {
     text-align: justify;
     margin-right: auto;
     margin-bottom: 16px;
-}
+} */
 
 .intro-text {
     margin-top: 10vh;
@@ -206,14 +211,19 @@ hr {
     justify-content: center;
     margin-top: 5vh;
     margin: auto;
-    border: 1px solid #464654;
-    padding: 16px;
+    border-top: 1px solid #464654;
+    border-bottom: 1px solid #464654;
+    padding: 32px;
     margin-bottom: 32px;
     margin-top: 32px;
+    /* text-align: center; */
 }
 
 .info-div h3 {
-    margin: 32px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: justify;
+
 }
 
 
@@ -222,7 +232,7 @@ hr {
 }
 
 .info-div p {
-    margin: 32px;
+    margin: 12px;
 }
 
 /* Announcement Div Stars */
@@ -246,8 +256,9 @@ hr {
     margin: auto;
     border: 1px solid #464654;
     padding: 16px;
-    margin-bottom: 32px;
+    margin-bottom: 15vh;
     margin-top: 32px;
+    text-align: center;
 }
 
 .announcement-div h3 {
@@ -281,6 +292,11 @@ hr {
     color: white;
 }
 
+.ordering-links-div {
+    display: flex;
+    flex-direction: row;
+}
+
 /* Announcement Div Ends */
 
 
@@ -311,10 +327,30 @@ hr {
 }
 
 /* Press Section Begins */
-.press-link-gallery div {
-    margin: 2vh;
+.press-link-div {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+    border: 1px solid #464654;
+    padding: 32px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+    /* margin: 2vh; */
+    text-align: center;
+    padding: 2px;
+}
+
+.press-link-div p {
     text-align: center;
 }
+
+.press-link-div a {
+    margin: 5vh;
+}
+
 /* Press Section Ends */
 
 
@@ -439,8 +475,8 @@ footer {
 /* Hamburger Menu Begins */
 .burger-menu  {
     display:flex;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 0;
     position: fixed;
@@ -461,6 +497,7 @@ footer {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 16px;
+    margin: 12px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -576,7 +613,7 @@ footer {
         padding: 10px;
         margin: 2vh;
         text-align: center;
-        width: 80%;
+        width: 100%;
     }
 
     .address-div {
@@ -584,7 +621,7 @@ footer {
     }
 
     h3 {
-        max-width: 80vw;
+        /* max-width: 80vw; */
     }
 
     .social-media-icons-div p {
@@ -603,6 +640,10 @@ footer {
 
     h3 {
         font-size: 18px;
+    }
+
+    .home-section {
+        margin-top: 20vh;
     }
 
     .announcement-div {
@@ -678,28 +719,38 @@ footer {
     /* Info Div! */
     .info-div {
         width: 90vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 5vh;
-        margin: auto;
-        border: 1px solid #464654;
-        padding: 16px;
-        margin-bottom: 32px;
-        margin-top: 32px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     
     .info-div h3 {
-        margin: 32px;
+        margin: 16px;
     
     }
     
     .info-div p {
-        margin: 32px;
+        margin: 12px;
         font-size: 14px;
         width: 80vw;
     }
+
+    .info-div a {
+        width: 100%;
+        text-align: center;
+    }
+
+    .press-link-div {
+        width: 90vw;
+    }
+
+    .press-link-div a {
+        margin: 2vh;
+    }
+
+    .section-divider {
+        height: 5vh;
+    }
+    
 
 }
 /* Mobile Section Ends */
